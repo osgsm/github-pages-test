@@ -6,18 +6,21 @@ import Card from '../components/Card.astro';
 <Layout title="Welcome to Astro.">
   <main>
     <h1>gh-pages-src</h1>
+    <a href="./about">About</a>
   </main>
-  <a href="/about">About</a>
 </Layout>
 
 <style>
   main {
     margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
+    padding: 4rem;
+    display: grid;
+    place-content: center;
+    height: 600px;
+    text-align: center;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 800;
     margin: 0;
   }

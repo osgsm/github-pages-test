@@ -5,18 +5,21 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Welcome to Astro.">
   <main>
     <h1>About</h1>
-    <a href="/">Home</a>
+    <a href="./">Home</a>
   </main>
 </Layout>
 
 <style>
   main {
     margin: auto;
-    padding: 1.5rem;
-    max-width: 60ch;
+    padding: 4rem;
+    display: grid;
+    place-content: center;
+    height: 600px;
+    text-align: center;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 800;
     margin: 0;
   }
